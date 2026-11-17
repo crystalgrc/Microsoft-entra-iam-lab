@@ -48,17 +48,16 @@ The project simulates real-world identity administration scenarios for a fiction
 
 ### Lab 03 — RBAC and Least Privilege
 
-Previously performed exercises include:
+- Created a fictional IT Helpdesk Technician account for Michael Davis.
+- Assigned and verified the Helpdesk Administrator role.
+- Tested delegated password-reset permissions for a standard user.
+- Confirmed that Global Administrator role assignment was restricted.
+- Verified that directory audit logs were inaccessible to the Helpdesk Administrator in the tested configuration.
+- Reviewed password-reset audit logs using the Global Administrator account.
+- Conducted a manual administrative access review.
+- Captured four screenshots demonstrating role assignments, privilege restrictions, and authorized password-reset access.
 
-- Created a fictional IT helpdesk account for Michael Davis.
-- Assigned the Helpdesk Administrator role.
-- Tested delegated password-reset permissions.
-- Verified that the Helpdesk Administrator could not assign Global Administrator privileges.
-- Performed a password reset for a standard user.
-- Verified the password-reset event through audit logs using the Global Administrator account.
-- Conducted a manual review of administrative role assignments.
-
-Additional evidence collection and documentation are in progress.
+[View Lab 03 Evidence](https://github.com/crystalgrc/Microsoft-entra-iam-lab/tree/main/evidence/lab-03-rbac-least-privilege)
 
 ## Security Concepts Demonstrated
 
