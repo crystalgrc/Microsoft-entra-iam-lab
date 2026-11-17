@@ -95,7 +95,21 @@ The results apply to the accounts, roles, and configuration tested in this lab. 
 This lab used Microsoft Entra ID Free and manually tested selected role permissions. It did not implement Privileged Identity Management, automated access reviews, or production access governance workflows.
 
 ## Evidence
-Screenshots of role assignments, restricted actions, and audit events may be added after redacting tenant identifiers, usernames, and sensitive information.
+The following screenshots document administrative role assignments and permission testing in Microsoft Entra ID.
+
+### Evidence 01 — Helpdesk Administrator Role Assignment
+![Helpdesk Administrator role assignment](../evidence/lab-03-rbac-least-privilege/01-helpdesk-admin-role.png)
+
+### Evidence 02 — Global Administrator Role Assignments
+![Global Administrator role assignments](../evidence/lab-03-rbac-least-privilege/02-global-admin-assignments.png)
+
+### Evidence 03 — Least Privilege Restriction
+![Global Administrator assignment restriction](../evidence/lab-03-rbac-least-privilege/03-global-admin-restriction.png)
+
+### Evidence 04 — Authorized Password Reset Permission
+![Helpdesk password reset permission](../evidence/lab-03-rbac-least-privilege/04-helpdesk-password-reset.png)
+
+The screenshots show that Michael Davis was assigned the Helpdesk Administrator role, could access the password-reset action for the selected standard user, and could not add Global Administrator role assignments through the tested interface.
 
 ## Conclusion
 Successfully implemented and tested delegated administration using Microsoft Entra ID. Verified that the Helpdesk Administrator role supported authorized password-reset operations while restricting higher-privilege activities.
