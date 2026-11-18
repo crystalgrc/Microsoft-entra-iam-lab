@@ -19,7 +19,7 @@ The project simulates real-world identity administration scenarios for a fiction
 
 | Lab | Description | Status |
 |---|---|---|
-| [Lab 01: User Provisioning and Group Management](labs/01-user-provisioning) | User account creation, security groups, membership assignment, and audit verification | Completed |
+| [Lab 01: User Provisioning and Group Management](labs/01-user-provisioning.md) | User account creation, security groups, membership assignment, and audit verification | Completed |
 | [Lab 02: Employee Offboarding and Audit Logging](labs/02-employee-offboarding.md) | Account disablement, session revocation, group membership removal, and audit verification | Completed |
 | [Lab 03: RBAC and Least Privilege](labs/03-rbac-least-privilege.md) | Delegated administration, password resets, privilege restrictions, and access reviews | Completed |
 
